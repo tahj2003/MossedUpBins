@@ -230,28 +230,8 @@
                 </div>
             </div>
         </section>
-       <!-- Freeform Section -->
-        <section id="freeform-section" class="bg-section-blue py-16 md:py-24 px-6 rounded-xl my-12 mx-auto max-w-6xl shadow-xl">
-            <div class="container mx-auto text-center">
-                <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300">Your Custom Freeform Content</h2>
-                <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto opacity-90">
-                    This section now displays your Formspree form.
-                </p>
-                <div class="max-w-3xl mx-auto bg-blue-800 p-8 rounded-xl shadow-lg">
-                    <!-- Formspree form embedded here -->
-                    <iframe
-                        src="https://formspree.io/f/xpwrevyv"
-                        class="w-full aspect-video rounded-lg"
-                        frameborder="0"
-                        allowfullscreen
-                        title="Contact Form"
-                    >
-                        Your browser does not support iframes. Please visit the form directly at https://formspree.io/f/xpwrevyv
-                    </iframe>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section -->
+
+ <!-- Contact Section -->
         <section id="contact" class="bg-section-blue py-16 md:py-24 px-6 rounded-xl my-12 mx-auto max-w-6xl shadow-xl">
             <div class="container mx-auto text-center">
                 <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300">Get Your Bins Sparkling!</h2>
@@ -259,7 +239,7 @@
                     Ready for a cleaner, fresher home or business? Contact us today for a free, no-obligation quote!
                 </p>
                 <div class="max-w-xl mx-auto bg-blue-800 p-8 rounded-xl shadow-lg">
-                    <form class="space-y-6">
+                    <form class="space-y-6" action="https://formspree.io/f/xpwrevyv" method="POST">
                         <div>
                             <label for="name" class="block text-lg font-medium text-left mb-2">Name</label>
                             <input type="text" id="name" name="name" class="w-full p-3 rounded-lg bg-blue-700 border border-blue-600 text-white placeholder-blue-300 focus:ring-2 focus:ring-accent-blue focus:border-transparent" placeholder="Your Name" required>
@@ -281,7 +261,6 @@
                         </button>
                     </form>
                 </div>
-
                 <!-- New Contact Information Section -->
                 <div class="max-w-xl mx-auto mt-12 bg-blue-800 p-8 rounded-xl shadow-lg text-left">
                     <h3 class="text-3xl font-bold mb-6 text-blue-300 text-center">Our Contact Information</h3>
