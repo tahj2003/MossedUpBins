@@ -29,22 +29,6 @@
     </style>
 </head>
 <body class="text-white">
-    <form
-        <h1>Contact Us</h1>
-  action="https://formspree.io/f/mpwrnqkq"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
     <!-- Header Section -->
     <header class="bg-blue-900 shadow-lg py-4 px-6 md:px-12">
         <nav class="container mx-auto flex justify-between items-center">
@@ -246,7 +230,27 @@
                 </div>
             </div>
         </section>
-
+       <!-- Freeform Section -->
+        <section id="freeform-section" class="bg-section-blue py-16 md:py-24 px-6 rounded-xl my-12 mx-auto max-w-6xl shadow-xl">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-bold mb-12 text-blue-300">Your Custom Freeform Content</h2>
+                <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto opacity-90">
+                    This section now displays your Formspree form.
+                </p>
+                <div class="max-w-3xl mx-auto bg-blue-800 p-8 rounded-xl shadow-lg">
+                    <!-- Formspree form embedded here -->
+                    <iframe
+                        src="https://formspree.io/f/xpwrevyv"
+                        class="w-full aspect-video rounded-lg"
+                        frameborder="0"
+                        allowfullscreen
+                        title="Contact Form"
+                    >
+                        Your browser does not support iframes. Please visit the form directly at https://formspree.io/f/xpwrevyv
+                    </iframe>
+                </div>
+            </div>
+        </section>
         <!-- Contact Section -->
         <section id="contact" class="bg-section-blue py-16 md:py-24 px-6 rounded-xl my-12 mx-auto max-w-6xl shadow-xl">
             <div class="container mx-auto text-center">
